@@ -5,6 +5,7 @@ import vue from '@vitejs/plugin-vue'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/hexschool-vue-2024-w1-homework/',
   plugins: [
     vue(),
   ],
